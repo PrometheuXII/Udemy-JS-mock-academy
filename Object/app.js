@@ -41,3 +41,12 @@ console.log(car)
 // car.transmission = ["automatic", "manual"] -- you can also do this..
 car["transmission"] = ["automatic", "manual"]
 console.log(car)
+
+// create objects within objects
+var Users = {
+    user1 : {name : "Jack", email : "Jack@email.com"},
+    user2 : {name : "Bob", email : "Bob@email.com"},
+    user3 : {name : "Fred", email : "Fred@email.com"}
+}
+
+console.log(Users)
