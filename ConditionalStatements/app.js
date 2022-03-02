@@ -31,9 +31,9 @@ console.log(1 !== "3")
 
 // if statement
 
-// if(true){  --executes since true
-//     alert("Mock")
-// }
+if(true){  //--executes since true
+    alert("Mock")
+}
 if(false){  // doesn't execute since false
     alert("Mock")
 }
